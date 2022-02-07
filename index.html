@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shooting Game</title>
+</head>
+<body>
+    <div id="title">
+        Game Zone
+    </div>
+    <div class="zone">
+
+
+       <div id="p2block"><h2>COMPUTER</h2></div>
+
+       <div id="p2" > 
+        <img src="https://i.ibb.co/NVpzRw2/p1.png" alt="Player 1"     height="70px" width="100px">
+       </div>
+
+       <div id="p2blockimg">
+           <div id="p2fireimg">
+              <img src="https://i.ibb.co/tBHYkv6/p2Fire.png" height="80px"width="120px" alt="p2Fire">
+           </div>
+          <div id="p2FireScore">Shot</div>
+       </div>
+
+
+       <div id="p1blockimg">
+          <div id="p1FireScore">Shot</div>
+          <div id="p1fireimg">
+             <img src="https://i.ibb.co/8gX44n3/p1Fire.png"      height="80px"width="120px" alt="p1Fire">    
+          </div>
+        </div>
+
+       <div id="p1">
+          <img src="https://i.ibb.co/T8kZJ9Y/p2.png" alt="Player   1"height="70px" width="100px">   
+       </div>
+
+       <div id="p1block"><h2>YOU</h2></div>
+    </div>
+
+    <br>
+
+    <div class="btn">
+        <Button id="ShootBtn" onclick="shootBtn()">Shoot</Button>
+        <button id="resetBtn" onclick="resetBtn()">Reset Button</button>
+    </div>
+
+    <br><br>
+
+    <div class="Score-Board">
+        <div class="grid-item" id="grid-item-1">You</div>
+        <div class="grid-item" id="grid-item-3">Win</div>
+        <div class="grid-item" id="grid-item-4">0</div>
+        <div class="grid-item" id="grid-item-5">Computer</div>
+        <div class="grid-item" id="grid-item-7">Win</div>
+        <div class="grid-item" id="grid-item-8">0</div>
+    </div>
+
+    <div class="result">
+      <div class="result-item" id="grid-item-9"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
